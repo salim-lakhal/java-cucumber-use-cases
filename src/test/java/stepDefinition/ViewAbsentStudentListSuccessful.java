@@ -11,7 +11,7 @@ public void i_am_logged_into_the_system() {
     throw new io.cucumber.java.PendingException();
 }
 @Given("I have the professor role")
-public void i_have_the_professor_role() {
+public void i_have_the_professor_role(String role) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
