@@ -16,17 +16,34 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
-Feature: Consult the absent students
-  I want to look at the list of the absents
+@system
+Feature: View List of Absent Students
 
-  @tag1
- Scenario: Look at the list of the absents
-    Given I am logged into the system
-    And I have the professor role
-    And It is my course
-    When I press the list button
-    Then The List of all the students should appear
-    And I should have the students that are absent with a special mention
+Narrative:
+As a professor,
+I want to view a list of absent students for my course
+So that I can track student attendance.
+
+Scenario: View full student list with login and role
+  Given I am logged into the system
+  And I have the professor role "professor"
+  And It is my course "course"
+  When I press the list button
+  Then The List of all the students should appear:
+    """
+    student1 | student2 | student3 | student4 | 
+    """
+
+Scenario: View absent students with mentions
+  Given I am logged into the system
+  And I have the professor role "professor"
+  And It is my course "course"
+  When I press the list button
+  Then I should have the students that are absent with a special mention:
+    """
+    student1 is absent. student2 is present. student3 is absent. student4 is present.
+    """
+
+
 
 
