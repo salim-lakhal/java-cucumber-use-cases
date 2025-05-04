@@ -8,79 +8,79 @@ public class ProvideReasonSteps {
 
     @Given("I am logged into the system")
     public void iAmLoggedIntoTheSystem() {
-        // Login to the system
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @Given("I have not exceeded my absence quota")
     public void iHaveNotExceededMyAbsenceQuota() {
-        // Check if the student has enough quota
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @Given("the course for which I am requesting an absence exists in the system")
     public void theCourseForWhichIAmRequestingAnAbsenceExists() {
-        // Ensure the course exists
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @Given("I am submitting the request within the allowed time frame")
     public void iAmSubmittingTheRequestWithinTheAllowedTimeFrame() {
-        // Check the time frame for submitting requests
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @When("I provide a valid reason for my absence")
     public void iProvideAValidReasonForMyAbsence() {
-        // Input a valid reason
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @When("I submit the reason")
     public void iSubmitTheReason() {
-        // Submit the reason
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @Then("the reason should be successfully recorded")
     public void theReasonShouldBeSuccessfullyRecorded() {
-        // Assert that the reason is recorded in the system
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @Then("I should receive a confirmation notification by email")
     public void iShouldReceiveAConfirmationNotificationByEmail() {
-        // Check email confirmation
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @Then("my absence request should be marked as \"Pending Validation\"")
     public void myAbsenceRequestShouldBeMarkedAsPendingValidation() {
-        // Assert the status of the request
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @When("I provide an invalid reason for my absence")
     public void iProvideAnInvalidReasonForMyAbsence() {
-        // Input an invalid reason
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @When("I attempt to submit the reason")
     public void iAttemptToSubmitTheReason() {
-        // Try to submit an invalid reason
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @Then("the system should reject my request")
     public void theSystemShouldRejectMyRequest() {
-        // Assert the request is rejected
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 
     @Then("I should receive an error message indicating the reason is invalid")
     public void iShouldReceiveAnErrorMessageIndicatingTheReasonIsInvalid() {
-        // Check for error message
+        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 }
